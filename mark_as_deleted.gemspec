@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = MarkAsDeleted::VERSION
   s.authors     = ['Vsevolod Romashov']
   s.email       = ['7@7vn.ru']
-  s.homepage    = ""
+  s.homepage    = "https://github.com/7even/mark_as_deleted"
   s.summary     = "Allows to mark AR objects as deleted instead of actual deletion"
   s.description = "A simple gem that adds mark_as_deleted ActiveRecord macro. Models having this are not actually being deleted, they are marked as deleted instead."
   
