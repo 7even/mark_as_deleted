@@ -9,5 +9,5 @@ module MarkAsDeleted
 end
 
 if defined?(::ActiveRecord)
-  ActiveRecord::Base.extend MarksAsDeleted::ActiveRecord
+  ActiveRecord::Base.extend MarkAsDeleted::ActiveRecord
 end
